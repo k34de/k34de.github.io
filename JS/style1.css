@@ -1,0 +1,24 @@
+*{
+    font-family: 'Comic Sans MS', arial;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+.cell{
+    background-color: azure;
+    width: 50%;
+    text-align: center;
+    border: 2px aquamarine dotted;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+table , tr , td {
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: whitesmoke;
+    border: 3px aquamarine solid;
+} 
