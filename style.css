@@ -8,8 +8,8 @@
 
 body{
     background: url(bg.gif);
+    background-size: 110%;
     background-repeat: no-repeat;
-    background-size: 100%;
 }
 /* Pasek informacyjny */
 .info {
@@ -37,5 +37,16 @@ a{
 }
 
 a:hover{
+    color: red;
+}
+
+.copyright{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    margin: 10px;
+}
+
+.copyright:hover{
     color: red;
 }
